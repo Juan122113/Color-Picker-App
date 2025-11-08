@@ -7,8 +7,7 @@ export const ColorPicker = () => {
   const [isColor, setIsColor] = useState("#ffffff");
 
   const defaultStyles = {
-    backgroundColor: isColor,
-    color: isColor
+    backgroundColor: isColor
   }
 
   const handleInputChange = (e) => {
